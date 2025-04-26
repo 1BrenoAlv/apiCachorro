@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    padding: 20px;
+    background-color: antiquewhite;
+    font-family: 'Popins', sans-serif;
+    text-align: center;
+}
+
+.containerBig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(85, 47, 21,0.2);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 15px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    color: #552f15;
+    font-weight: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    font-size: 17px;
+    color: #26170e;
+    font-weight: 300px;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-size: 20px;
+    color: #26170e;
+    font-weight: 300px;
+    margin-top: 2px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    display: none;
+}
+
+button {
+    background-color: #552f15;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #c4723c;
+}
